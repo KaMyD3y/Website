@@ -1,0 +1,26 @@
+.button {
+    position: relative;
+    border: 1px solid white;
+    box-shadow: -5px -5px 10px gray ;
+    font-size: 1vw;
+    padding: 1vw;
+    border-radius: 2vw;
+    background: none;
+}
+.container :hover {
+    left: 0.2vw;
+    top: 0.2vw;
+    background: radial-gradient( 90% 90% ,white 30%,  gray);
+    box-shadow: none;
+    border: 1px solid gray;
+}
+.button a {
+    text-decoration: none;
+    color: black;
+}
+.button a:hover {
+    text-decoration: none;
+    color: black;
+    background: none;
+    border: none;
+}
