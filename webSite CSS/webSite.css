@@ -22,7 +22,7 @@ body {
 .container :hover {
     left: 0.9vw;
     top: 19.7vw;
-    background: radial-gradient( 80% 80% ,white 40%,  gray);
+    background: radial-gradient( 70% 70% ,white 40%,  gray);
     box-shadow: none;
     border: 1px solid  gray;
 }
