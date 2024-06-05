@@ -1,0 +1,17 @@
+.body {
+    background:linear-gradient(to top, blueviolet ,rgb(24, 152, 195) 90%);
+    margin: 0;
+    padding: 0; 
+    height: 100vh; 
+}
+.img {
+    padding: 5vw;
+    border-radius: 12vw;
+}
+.container {
+    margin-left: 5vw;
+    margin-right: 15vw;
+    margin-top: 5vw;
+    border-radius:5vw;
+    background: linear-gradient(to top,blueviolet, brown 99%);;
+}
