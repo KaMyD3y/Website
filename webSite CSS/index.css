@@ -1,17 +1,80 @@
 .body {
-    background:linear-gradient(to top, blueviolet ,rgb(24, 152, 195) 90%);
+    background-color:brown;
     margin: 0;
     padding: 0; 
     height: 100vh; 
+    
 }
-.img {
-    padding: 5vw;
-    border-radius: 12vw;
+.head {
+    text-align: center;
+    background: linear-gradient(to right, gray , white);
+    padding: 3vw;
+    font-size: 1vw;
 }
 .container {
-    margin-left: 5vw;
-    margin-right: 15vw;
-    margin-top: 5vw;
-    border-radius:5vw;
-    background: linear-gradient(to top,blueviolet, brown 99%);;
+    background-color:gray;
+    position: absolute;
+    height: 100vw;
+    border:5px solid gray;
+    top: 0;
+    left: 0;
+    width: 15vw;
+}
+.img {
+    display: block;
+    margin-top: 3vw;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid white;
+    border-radius: 100%;
+    height: 9vw;
+    width: 8vw;
+}
+li {
+    color: white;
+
+}
+.text li:first-child::before {
+    content: "\1F4E7";
+    margin-left: 4.5vw;
+
+}
+.text li:nth-child(3)::before {
+    content:"\1F4F1";
+    margin-left: 4.7vw;
+}
+.text li:nth-child(4){
+    margin-left: 1.4vw;
+}
+.text li:nth-child(5)::before {
+    content:"\1F5FA";
+    margin-left: 4.5vw;
+}
+.text li:last-child{
+    margin-left: 1vw;
+}
+.box {
+    position: absolute;
+    left: 10vw;
+    right: 50vw;
+    border: 5px solid black;
+    width: 70vw;
+}
+strong {
+    font-size: 1.5vw;
+    color: white;
+
+}
+.education :nth-child(2){
+    font-style: italic;
+    text-decoration: underline;
+    line-height: 1.2;
+}
+.education :nth-child(4) {
+    font-style: oblique;
+    text-decoration: underline;
+}
+.education :nth-child(3) {
+    height: 1vw;
+    
 }
