@@ -78,4 +78,15 @@ li {
 }
 .move {
     margin-left: 18vw;
+    margin-top: 8%;
+    padding: 1vw;
+    border-bottom: 2px solid black;
+}
+.other {
+    position: absolute;
+    color:black;
+    margin-top: 5%;
+    margin-left: 20vw;
+    font-weight: bold;
+    font-size: 1.2vw;
 }
