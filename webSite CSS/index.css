@@ -1,5 +1,5 @@
 .body {
-    background-color:brown;
+    background-color:white;
     margin: 0;
     padding: 0; 
     height: 100vh; 
@@ -9,15 +9,18 @@
     text-align: center;
     background: linear-gradient(to right, gray , white);
     padding: 3vw;
-    font-size: 1vw;
+    font-size: 2vw;
+    color: lightyellow;
+    border: 2px solid linear-gradient(to right, gray , white);
+    border-radius: 20px 20px 20px 20px;
+
 }
 .container {
-    background-color:gray;
+    background-color:rgb(135, 132, 132);
     position: absolute;
-    height: 100vw;
-    border:5px solid gray;
+    border:5px solid rgb(135, 132, 132);
     top: 0;
-    left: 0;
+    left: 2vw;
     width: 15vw;
 }
 .img {
@@ -57,24 +60,22 @@ li {
     position: absolute;
     left: 10vw;
     right: 50vw;
-    border: 5px solid black;
     width: 70vw;
+    background-color:white;
 }
-strong {
-    font-size: 1.5vw;
-    color: white;
-
-}
-.education :nth-child(2){
+.some {
+    font-size: 1.2vw;
+    line-height: 2;
     font-style: italic;
-    text-decoration: underline;
-    line-height: 1.2;
+    color:white;
+    margin-left: 4vw;
+    font-weight: bold;
 }
-.education :nth-child(4) {
+.pharagraf {
+    color:white;
     font-style: oblique;
-    text-decoration: underline;
+    margin-left: 1vw;
 }
-.education :nth-child(3) {
-    height: 1vw;
-    
+.move {
+    margin-left: 18vw;
 }
