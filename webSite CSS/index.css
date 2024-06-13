@@ -161,9 +161,8 @@
 }
 .another {
     position: absolute;
-    color:black;
-    margin-top: 0.5%;
-    margin-left: 20vw;
+    color:black;;
+    left: 34vw;
     font-weight: bold;
     font-size: 1.2vw;
 }
@@ -215,9 +214,9 @@
 .linework{
     position: absolute;
     border-right: 2px solid black;
-    height: 10vw;
+    height: 9.5vw;
     left: 38vw;
-    bottom:5vw;
+    bottom:4vw;
 }
 
 
