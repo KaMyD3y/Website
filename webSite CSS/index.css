@@ -80,11 +80,12 @@
     margin-top: 6.5%;
     padding: 1vw;
     border-bottom: 2px solid black;
+    font-style: italic;
 }
 .other {
     position: absolute;
     color:black;
-    margin-top: 5%;
+    margin-top: 4%;
     margin-left: 20vw;
     font-weight: bold;
     font-size: 1.2vw;
@@ -114,4 +115,110 @@
     margin-left: 18vw;
     border-bottom: 2px solid black;
 }
+.ability :nth-child(1){
+    margin-left: 18vw;
+    font-size: 1.2vw;
+    font-weight: bold;
+}
+.ability :nth-child(2){
+    margin-top: 1%;
+    margin-left: 18vw;
+}
+.ability :nth-child(3){
+    margin-top: 1%;
+    margin-left: 18vw;
+}
+.ability :nth-child(4){
+    margin-top: 1%;
+    margin-left: 18vw;
+}
+.ability :nth-child(5){
+    margin-top: 1%;
+    margin-left: 18vw;
+}
+.ability :nth-child(6){
+    margin-top: 1%;
+    margin-left: 18vw;
+}
+.ability :nth-child(7){
+    margin-top: 1%;
+    margin-left: 18vw;
+}
+.ability :nth-child(8){
+    margin-top: 1%;
+    margin-left: 18vw;
+}
+.ability :nth-child(9){
+    margin-top: 1%;
+    margin-left: 18vw;
+}
+.ability :nth-child(10){
+    margin-top: 1%;
+    margin-left: 18vw;
+}
+.border {
+    border-bottom:2px solid black;
+}
+.another {
+    position: absolute;
+    color:black;
+    margin-top: 0.5%;
+    margin-left: 20vw;
+    font-weight: bold;
+    font-size: 1.2vw;
+}
+.work :nth-child(1) {
+    margin-left: 19vw;
+    margin-top: 5%;
+    font-size:large ;
+    font-weight: bold;
+}
+.work :nth-child(2) {
+    margin-left: 19vw;
+    margin-top: 0.5%;
+}
+.work :nth-child(3) {
+    margin-left: 19vw;
+    margin-top: 0.5%;
+}
+.work1 :nth-child(1) {
+    margin-left: 19vw;
+    margin-top: 1%;
+    font-size:large ;
+    font-weight: bold;
+}
+.work1 :nth-child(2) {
+    margin-left: 19vw;
+    margin-top: 0.5%;
+}
+.work1 :nth-child(3) {
+    margin-left: 19vw;
+    margin-top: 0.5%;
+}
+.work2 :nth-child(1) {
+    position: absolute;
+    margin-left: 40vw;
+    bottom: 12.1vw;
+    font-size:large;
+    font-weight: bold;
+}
+.work2 :nth-child(2) {
+    position: relative;
+    margin-left: 40vw;
+    bottom: 8.7vw;
+}
+.work2 :nth-child(3) {
+    position:relative;
+    margin-left: 40vw;
+    bottom: 8.3vw;
+}
+.linework{
+    position: absolute;
+    border-right: 2px solid black;
+    height: 10vw;
+    left: 38vw;
+    bottom:5vw;
+}
+
+
 
