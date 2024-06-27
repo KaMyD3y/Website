@@ -99,5 +99,48 @@
             <dd>Moscova, Russia</dd>
         </dl>
     </div>
+    <div class="bclock" id="clock"></div>
+    <div class="infoAbout" id="boss">
+        <button id="button"> Press me</button>
+        <img id="picture" class="pictureInfo" src="/WebSite pictures/photo_2024-06-05_20-56-40.jpg"
+        alt="Not found 404" width="750" height="550">
+        <p id="pharagraf">Information:<br>
+        Sunt incepator in Frontend tin tendinta de a ma dezvolta pina la Full-stack<br>
+        Imi place sportul,si sa calatoresc:<br>
+        Dar din motiv ca ma bazez acuma pe invatatura nu cam am posibilitate sa ma ocup cu sportul<br>
+        dar oricum aceasta nu ma opreste.<br>
+        Dupa ce am lucrat in Moscova,Londra am inteles ca ceia ce as dorii pe viitor aceasta e calculatorul si buttoanele la el.
+        Ps: cind eram la scoala am imblat la antrenamente Footbal se poate de mai scris dar cred ca pina aicea ajunge
+    </p>
+    </div>
+    <script>
+        function updateClock() {
+            const now = new Date();
+            const options = { timeZone: 'Europe/Chisinau', hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: false };
+            const timeString = now.toLocaleTimeString('md-MD', options) + ' Moldova Time';
+
+            document.getElementById('clock').textContent = timeString;
+        }
+
+        updateClock();
+
+        setInterval(updateClock, 1000);
+    </script>
+    <script>
+        const bossDiv = document.getElementById('boss');
+        const buttonDiv = document.getElementById('button');
+        const imgDiv = document.getElementById('picture');
+        const pharagrafDiv = document.getElementById('pharagraf');
+
+        buttonDiv.addEventListener('click', () => {
+            imgDiv.style.visibility = 'visible';
+        });
+        imgDiv.addEventListener('mouseover', () =>{
+            pharagrafDiv.style.visibility = 'visible';
+        });
+        imgDiv.addEventListener('mouseout' , () => {
+            pharagrafDiv.style.visibility = 'hidden';
+        });
+    </script>
 </body>
 </html>

@@ -23,6 +23,14 @@
     left: 2vw;
     width: 15vw;
 }
+.bclock {
+    position: relative;
+    font-size: 2em;
+    font-family: 'Arial', sans-serif;
+    color: lightyellow;
+    left: 35vw;
+}
+
 .img {
     display: block;
     margin-top: 3vw;
@@ -218,6 +226,39 @@
     left: 38vw;
     bottom:4vw;
 }
+.pictureInfo {
+    position: absolute;
+    top: 65vw;
+    left: 28vw;
+    visibility: hidden;
+}
+.infoAbout p {
+    position:relative;
+    top: 64vw;
+    left: 30vw;
+    height: 8vw;
+    width:21vw;
+    text-align: center;
+    visibility: hidden;
+    border : 0.2vw solid white;
+    color:white;
+    padding:10vw ;
+
+}
+
+.infoAbout button {
+    position: relative;
+    top: 60vw;
+    left: 46vw;
+    border:none;
+    background-color:blue;
+    padding: 1vh 2vh;
+    text-align: center;
+    color:white;
+    cursor: pointer;
+    border-radius:0.4vh;
+}
+
 
 
 
